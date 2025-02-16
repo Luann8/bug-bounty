@@ -50,17 +50,3 @@ Este projeto é uma página de uma **Plataforma de Bug Bounty** que conecta empr
     http://localhost:8000/
     ```
 
-## Contribuição
-
-Contribuições são bem-vindas! Por favor, siga as diretrizes de contribuição no arquivo CONTRIBUTING.md.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
-## Contato
-
-Se você tiver alguma dúvida ou sugestão, entre em contato:
-
-*   Seu Nome
-*   seuemail@exemplo.com

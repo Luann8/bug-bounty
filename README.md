@@ -1,10 +1,6 @@
 
 1.  Clone o repositório:
 
-    ```bash
-    git clone [https://github.com/seuusuario/meuprojeto.git](https://www.google.com/search?q=https://github.com/seuusuario/meuprojeto.git)
-    ```
-
 2.  Crie um ambiente virtual:
 
     ```bash

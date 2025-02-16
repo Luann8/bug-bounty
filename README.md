@@ -1,5 +1,21 @@
+# Plataforma de Bug Bounty
 
-1.  Clone o repositório:
+## Descrição do Projeto
+Este projeto é uma página de uma **Plataforma de Bug Bounty** que conecta empresas e freelancers de segurança para identificar vulnerabilidades em sistemas. A página possui seções para:
+- Apresentar a plataforma.
+- Exibir empresas participantes.
+- Listar regras para submissão de vulnerabilidades.
+- Permitir que usuários enviem relatórios detalhados.
+
+## Como Iniciar o Projeto Localmente
+
+### Requisitos
+- Navegador moderno (como Chrome ou Firefox).
+- Um servidor local para servir os arquivos HTML.
+
+### Métodos de Iniciação
+
+1. Abra a pasta do projeto no **VS Code**.
 
 2.  Crie um ambiente virtual:
 

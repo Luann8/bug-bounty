@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Bug Bounty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">Plataforma de Bug Bounty</h1>
+            <nav>
+                <a href="#sobre" class="mx-2 hover:underline">Sobre</a>
+                <a href="#empresas" class="mx-2 hover:underline">Empresas</a>
+                <a href="#regras" class="mx-2 hover:underline">Regras</a>
+                <a href="#relatorio" class="mx-2 hover:underline">Enviar Relatório</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="sobre" class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4">Sobre a Plataforma</h2>
+            <p class="text-lg">Nossa plataforma conecta empresas e freelancers de segurança para identificação de vulnerabilidades em sistemas. Freelancers podem relatar problemas de segurança válidos e serem recompensados, enquanto empresas podem proteger suas plataformas de maneira eficiente e colaborativa.</p>
+        </section>
+
+        <section id="empresas" class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4">Empresas Disponíveis</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Empresa A</h3>
+                    <p class="text-gray-700 mb-4">Descrição breve sobre a empresa e seu programa de Bug Bounty.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Ver Detalhes</a>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Empresa B</h3>
+                    <p class="text-gray-700 mb-4">Descrição breve sobre a empresa e seu programa de Bug Bounty.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Ver Detalhes</a>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Empresa C</h3>
+                    <p class="text-gray-700 mb-4">Descrição breve sobre a empresa e seu programa de Bug Bounty.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Ver Detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="regras" class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4">Regras</h2>
+            <ul class="list-disc pl-5 text-lg">
+                <li>Relate apenas vulnerabilidades que não sejam previamente conhecidas ou relatadas.</li>
+                <li>Não realize testes que possam interromper os serviços das empresas.</li>
+                <li>Respeite a privacidade e os dados dos usuários.</li>
+                <li>Forneça etapas detalhadas para reproduzir a vulnerabilidade.</li>
+            </ul>
+        </section>
+
+        <section id="relatorio" class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4">Enviar Relatório</h2>
+            <form class="bg-white p-6 shadow-md rounded-lg">
+                <label class="block mb-4">
+                    <span class="text-lg font-medium">Seu Nome</span>
+                    <input type="text" class="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="Seu nome">
+                </label>
+                <label class="block mb-4">
+                    <span class="text-lg font-medium">Seu E-mail</span>
+                    <input type="email" class="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="exemplo@email.com">
+                </label>
+                <label class="block mb-4">
+                    <span class="text-lg font-medium">Empresa Alvo</span>
+                    <input type="text" class="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-200" placeholder="Nome da empresa alvo">
+                </label>
+                <label class="block mb-4">
+                    <span class="text-lg font-medium">Detalhes da Vulnerabilidade</span>
+                    <textarea class="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-200" rows="5" placeholder="Forneça informações detalhadas sobre a vulnerabilidade..."></textarea>
+                </label>
+                <label class="block mb-4">
+                    <span class="text-lg font-medium">Envie um Relatório (opcional)</span>
+                    <input type="file" class="mt-1 block w-full text-gray-600">
+                </label>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Plataforma de Bug Bounty. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
